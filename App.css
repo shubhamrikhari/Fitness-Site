@@ -1,0 +1,43 @@
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+}
+
+.together{
+  display : flex;
+  justify-content: space-between;
+  margin-bottom : 20px;
+  background : white;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.place {
+  margin-left : 40px;
+  margin-top : 20px;
+}
+
+a {
+    text-decoration : none;
+    color : black;
+}
+  
+a:hover {
+  color: blue;
+}
+  
+ul {
+    margin-top : 25px;
+    display : flex;
+    gap : 4.8rem;
+    list-style : none;
+    padding : 0 20px 0 10px;
+}
+
+.bars {
+  margin-top : 100px;
+}
+
+.big {
+  text-transform: capitalize;
+}
